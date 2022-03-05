@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(217, 230, 101);
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div.content p{
+    background-color: rgb(241, 107, 66);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    margin: 0px;
+    font-weight: 450;
+    /* max-width: 100%; */
+}
+div.content span{
+    font-size: 2.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    padding: 0px;
+}
+div.instruction p{
+    color: rgb(230, 49, 49);
+    background-color: rgb(255, 255, 255);
+    font-size: x-large;
+    margin: 0px;
+    padding:0px 20px;
+    height: 37px;
+    text-align: center;
+    animation: changeBg 10s linear infinite;
+}
+
+@keyframes changeBg {
+    0% {
+        background-color: bisque;
+    }
+    10% {
+        background-color: rgb(248, 176, 87);
+    }
+    20% {
+        background-color: rgb(216, 131, 27);
+    }
+    30% {
+        background-color: rgb(161, 153, 34);
+    }
+    40% {
+        background-color: rgb(195, 231, 75);
+    }
+    50% {
+        background-color: rgb(85, 224, 189);
+    }
+    60% {
+        background-color: rgb(150, 196, 238);
+    }
+    70% {
+        background-color: rgb(184, 152, 236);
+    }
+    80% {
+        background-color: rgb(228, 109, 158);
+    }
+    90% {
+        background-color: rgb(233, 146, 228);
+    }
+    100% {
+        background-color: bisque;
+    }
+}
+
+div.instruction p button{
+    color: rgb(230, 49, 49);
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: 550;
+}
+.status{
+    display: inline-block;
+    color: rgb(141, 188, 231);
+    width: 20%;
+}
+.bigbox {
+    margin: 0px auto;
+    width: 49%;
+}
+.box {
+    width: 30%;
+    background: white;
+    padding-bottom: 30%;
+    margin: 1.5%;
+    border-radius: 35px;
+    float: left;
+}    
+
+
+@media screen and (max-width: 600px){
+    div.content p{
+        background-color: rgb(230, 203, 52);
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        padding: 5px;
+        text-align: center;
+        margin: 0px;
+        font-weight: 550;
+        max-width: 100%;
+    }
+    div.content span{
+        font-size: 2.5em;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+        padding: 0px;
+    }
+    .status{
+        display: inline-block;
+        color: rgb(141, 188, 231);
+        font-size: 15px;
+    }
+    div.instruction p{
+        color: rgb(230, 49, 49);
+        background-color: rgb(255, 255, 255);
+        font-size:medium;
+        margin: 0px;
+        padding:0px 20px;
+        height: 25px;
+        text-align: center;
+    }
+    div.instruction p button{
+        color: rgb(230, 49, 49);
+        border: none;
+        background-color: rgb(255, 255, 255);
+        font-weight: 550;
+    }
+    .bigbox {
+        margin: 0px auto;
+        width: 80%;
+    }
+    .box {
+        width: 30%;
+        background: white;
+        padding-bottom: 30%;
+        margin: 1.5%;
+        border-radius: 10px;
+        float: left;
+    }    
+    
+}
